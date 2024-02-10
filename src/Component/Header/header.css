@@ -1,0 +1,112 @@
+header{
+    height: 110vh;
+    padding-top: 4rem;
+    overflow: hidden;
+}
+.header__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* <--------------Cta(Buttons)--------------> */
+.cta{
+margin-top: 2.7rem;
+    display:flex;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+/* <-------------Social btns--------------> */
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    bottom:5rem;
+
+    align-items: center;
+
+}
+.header__socials::after{
+    content: "";
+    width:1px ;
+    height: 3rem;
+    background-color: var(--primary-color);
+}
+/* <-------------Me--------------> */
+/* .me{
+    background:linear-gradient(var(--primary-color),transparent);
+    width: 22rem;
+    height: 33rem;
+
+    position: absolute;
+    left: 50%; */
+/* transform: translateX(-50%);             or below code */
+    /* left: calc(50% - 11rem); */
+    /* margin-top: 4rem;
+    border-radius: 13rem 13rem 0 0;
+    overflow: hidden;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+
+} */
+
+ .header__container img{
+background-color: var(--primary-color);
+margin-top: 4rem;
+    border-radius: 10%;
+    width: 22rem;
+    height: 22rem;
+padding: 1rem;
+
+
+     position: absolute;
+    left: 50%;
+    /* top: 50%;  */
+    transform: translateX(-50%);
+} 
+
+
+
+/* <-------------Scrol down--------------> */
+.scroll__down{
+    position: absolute;
+    right:0;
+    bottom: 9rem;
+    font-weight: 300;
+    font-size: 0.9rem;
+    transform: rotate(90deg);
+}
+ .cta a .download-icon{
+    width: 4rem;
+    height: rem;
+}
+
+
+/* ================MEDIA QUERIES (MEDIUM DEVICES)========= */
+
+@media(max-width:1024px){
+header{
+    height: 100vh;
+    margin-top: 3rem;
+}
+  }
+  
+  /* ================MEDIA QUERIES (SMALL DEVICES)========= */
+  
+  @media(max-width:600px){
+    header{
+        height: 90vh;
+        padding-top: 1rem;
+        overflow: hidden;
+    }
+  
+    .header__socials,.scroll__down{
+        display: none;
+    }
+    .header__container img{
+width: 17rem;
+height: 17rem;
+
+    }
+  } 
