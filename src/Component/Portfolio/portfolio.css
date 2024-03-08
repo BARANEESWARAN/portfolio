@@ -1,24 +1,9 @@
-
-.projects__container{
-    position: relative;
-}
-
 .portfolio__container{
-   
-    width: 80%;
-    padding: 2rem;
-    margin: 0 auto;
-    display: flex;
-
-  cursor: pointer;
-    gap: 2rem;
-    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2.5rem;
 }
-
 .portfolio__item{
-
-    width:100%;
-    height: 100%;
     background-color: var(--bg-variant-color);
     padding: 1.3rem;
     border-radius: 2rem;
@@ -45,53 +30,7 @@ background: transparent;
     justify-content: center;
     gap: 2rem;
     margin-bottom: 1rem;
-    flex-wrap: wrap;
 }
-
-
-
-  
-  .card__container {
-    flex: 0 0 30%;
-    transition: transform 0.3s ease; /* CSS transition for smooth animation */
-  }
-  
-  .card__container:hover {
-    transform: translateY(-5px); /* Apply a slight lift effect on hover */
-  }
-  
-
-  
-
-  
-  .navigation-buttons button {
-  background: transparent;
-color: #007bff;
-font-size: 2.5rem;
-    border: none;
- 
-    cursor: pointer;
-  }
-
-  .navigation-buttons button:hover{
-    color: aliceblue;
-    background: none;
-  }
-
- 
-  .navigation-buttons button:nth-child(1){
-    position: absolute;
-    top: 0%;
-    left: 1%;
-  }
- 
-  .navigation-buttons button:nth-child(2){
-    position: absolute;
-    top: 0%;
-    right: 1%;
-  }
-  
-
 
 
 
@@ -106,7 +45,12 @@ font-size: 2.5rem;
 
 @media(max-width:1024px){
 
+    .portfolio__container{
+    
+        grid-template-columns: 1fr 1fr ;
+        gap: 1.2rem;
 
+    }
 
 
 
@@ -114,29 +58,13 @@ font-size: 2.5rem;
   
   /* ================MEDIA QUERIES (SMALL DEVICES)========= */
   
-  @media(max-width:730px){
+  @media(max-width:650px){
     .portfolio__container{
-        font-size: 14px;
-        width: 90%;
-        padding: 2rem;
-        margin: 0 auto;
-        display: flex;
     
-      cursor: pointer;
+        grid-template-columns: 1fr ;
         gap: 1rem;
-        
- }
 
- .portfolio__item h3{
-    margin: 1.2rem 0 2rem;
-    font-size: 14px;
-  
-}
-
-.card__container {
-    flex: 0 0 50%;
-    transition: transform 0.3s ease; /* CSS transition for smooth animation */
-  }
+    }
 
    
     
