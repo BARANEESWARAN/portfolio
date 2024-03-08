@@ -58,8 +58,8 @@ function Experiance() {
   <article className='experience__details'>
     <BsPatchCheckFill className="experience__icon"/>
     <div>
-    <h4>Mysql</h4>
-    <small className='text-light'>Basic</small>
+    <h4>Tailwind Css</h4>
+    <small className='text-light'>Experienced</small>
     </div>
    
   </article>
