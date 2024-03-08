@@ -31,7 +31,7 @@ function About() {
   <article className='about__card'>
     <FaAward className="about__icon"/>
     <h5>Experience</h5>
-    <small>8+ months Working</small>
+    <small>1.8+ years Working</small>
   </article>
 
   <article className='about__card'>
@@ -41,7 +41,7 @@ function About() {
   </article>
 </div>
 
-<p>As an innovative React JS Developer with 8 months of experience building scalable and responsive
+<p>As an innovative React JS Developer with 1.8 years months of experience building scalable and responsive
 web applications, I am adept at collaborating with cross-functional teams to drive innovation and
 deliver software products that exceed client expectations. I am now seeking a challenging role in a
 dynamic organization where I can apply my skills and expertise to drive business growth and achieve
