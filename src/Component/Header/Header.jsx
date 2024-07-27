@@ -15,7 +15,8 @@ function Header() {
 <Headerbtns/>
 <Headersocials/>
 <div className='me'>
-<img src={Me}  alt="me"/>
+{/* <img src={Me}  alt="me"/> */}
+<img src={"https://cdn.pixabay.com/photo/2022/07/08/05/38/freelance-work-7308505_1280.png"}  alt="me"/>
 
 </div>
 <a href='#contact' className='scroll__down'>Scroll Down</a>
