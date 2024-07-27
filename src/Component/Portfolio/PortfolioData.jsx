@@ -106,7 +106,7 @@ export const PortfolioData=[
     image: "https://cdn.dribbble.com/userupload/8026654/file/original-ed9649c51c598fa619487bbd4c5a2aa0.png?compress=1&resize=1024x768",
     title:"Spotify Clone",
     github:"https://github.com/BARANEESWARAN/mc_boy-.pluralsight-login",
-    demo:"https://github.com/BARANEESWARAN/spotify-clone/tree/main"
+    demo:"https://spotify-clone-mpj2.onrender.com"
   },
   {
     id:2,
