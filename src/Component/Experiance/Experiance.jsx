@@ -159,7 +159,7 @@ function Experiance() {
               <BsPatchCheckFill className='experience__icon' />
               <div>
                 <h4>JavaScript</h4>
-                <small className='text-light'>Experienced</small>
+{/*                 <small className='text-light'>Experienced</small> */}
               </div>
             </article>
             <article className='experience__details'>
@@ -190,10 +190,11 @@ function Experiance() {
                 {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
-            <article className='experience__details'>
+          
+               <article className='experience__details'>
               <BsPatchCheckFill className='experience__icon' />
               <div>
-                <h4>PWA</h4>
+                <h4>Git</h4>
                 {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
