@@ -205,6 +205,13 @@ function Experiance() {
                 {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
+              <article className='experience__details'>
+              <BsPatchCheckFill className='experience__icon' />
+              <div>
+                <h4>Jest</h4>
+                {/* <small className='text-light'>Experienced</small> */}
+              </div>
+            </article>
           </div>
         </div>
 
@@ -229,7 +236,7 @@ function Experiance() {
               <BsPatchCheckFill className='experience__icon' />
               <div>
                 <h4>MongoDB</h4>
-                <small className='text-light'>Experienced</small>
+{/*                 <small className='text-light'>Experienced</small> */}
               </div>
             </article>
           </div>
