@@ -11,7 +11,7 @@ function Header() {
    <div className='container header__container'>
 <h5>Hello  I'm</h5>
 <h1>Baraneeswaran </h1>
-<h5 className='text-light'>Frontend Developer</h5>
+<h5 className='text-light'>MERN Stack Developer</h5>
 <Headerbtns/>
 <Headersocials/>
 <div className='me'>
@@ -27,3 +27,4 @@ function Header() {
 }
 
 export default Header
+
