@@ -41,7 +41,7 @@ function About() {
   </article>
 </div>
 
-<p>As an innovative React JS Developer with 2 years of experience building scalable and responsive
+<p>As an innovative MERN Stack Developer with 2.4 years of experience building scalable and responsive
 web applications, I am adept at collaborating with cross-functional teams to drive innovation and
 deliver software products that exceed client expectations. I am now seeking a challenging role in a
 dynamic organization where I can apply my skills and expertise to drive business growth and achieve
@@ -65,3 +65,4 @@ professional success.
 }
 
 export default About
+
